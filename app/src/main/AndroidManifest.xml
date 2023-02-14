@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test">
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:label="Login"/>
+        <activity
+            android:name=".home"
+            android:exported="true"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Sign_up"
+            android:exported="true"
+            android:label="Sign Up"
+            />
+        <activity
+            android:name=".resturant6"
+            android:exported="true"
+            android:label="@string/activity4"
+            />
+        <activity
+            android:name=".resturant5"
+            android:exported="true"
+            android:label="@string/activity4"/>
+        <activity
+            android:name=".resturant4"
+            android:exported="true"
+            android:label="@string/activity4"/>
+        <activity
+            android:name=".resturant3"
+            android:exported="true"
+            android:label="@string/activity4"/>
+        <activity
+            android:name=".resturant2"
+            android:exported="true"
+            android:label="@string/activity4"/>
+        <activity
+            android:name=".resturant1"
+            android:exported="true"
+            android:label="@string/activity4"/>
+        <activity
+            android:name=".resturants"
+            android:exported="true"
+            android:label="@string/activity4"/>
+        <activity
+            android:name=".malls"
+            android:exported="true"
+            android:label="@string/activity6"/>
+        <activity
+            android:name=".mall6"
+            android:exported="true"
+            android:label="@string/activity6"/>
+        <activity
+            android:name=".mall5"
+            android:exported="true"
+            android:label="@string/activity6"/>
+        <activity
+            android:name=".mall4"
+            android:exported="true"
+            android:label="@string/activity6"/>
+        <activity
+            android:name=".mall3"
+            android:exported="true"
+            android:label="@string/activity6"/>
+        <activity
+            android:name=".mall2"
+            android:exported="true"
+            android:label="@string/activity6"/>
+        <activity
+            android:name=".mall1"
+            android:exported="true"
+            android:label="@string/activity6"/>
+        <activity
+            android:name=".Place6Activity"
+            android:exported="true"
+            android:label="@string/activity2" />
+        <activity
+            android:name=".Place5Activity"
+            android:exported="true"
+            android:label="@string/activity2" />
+        <activity
+            android:name=".Place4Activity"
+            android:exported="true"
+            android:label="@string/activity2" />
+        <activity
+            android:name=".Place3Activity"
+            android:exported="true"
+            android:label="@string/activity2" />
+        <activity
+            android:name=".Place2Activity"
+            android:exported="true"
+            android:label="@string/activity2" />
+        <activity
+            android:name=".Place1Activity"
+            android:exported="true"
+            android:label="@string/activity2" />
+        <activity
+            android:name=".PlacesActivity"
+            android:exported="true"
+            android:label="@string/activity2" />
+        <activity
+            android:name=".CitiesActivity"
+            android:exported="true"
+            android:label="@string/activity3" />
+        <activity
+            android:name=".city6"
+            android:exported="true"
+            android:label="@string/activity3" />
+        <activity
+            android:name=".city5"
+            android:exported="true"
+            android:label="@string/activity3" />
+        <activity
+            android:name=".city4"
+            android:exported="true"
+            android:label="@string/activity3" />
+        <activity
+            android:name=".city3"
+            android:exported="true"
+            android:label="@string/activity3" />
+        <activity
+            android:name=".city2"
+            android:exported="true"
+            android:label="@string/activity3" />
+        <activity
+            android:name=".city1"
+            android:exported="true"
+            android:label="@string/activity3" />
+        <activity
+            android:name=".hospital6"
+            android:exported="true"
+            android:label="@string/activity5" />
+        <activity
+            android:name=".hospital5"
+            android:exported="true"
+            android:label="@string/activity5" />
+        <activity
+            android:name=".hospital4"
+            android:exported="true"
+            android:label="@string/activity5" />
+        <activity
+            android:name=".hospital3"
+            android:exported="true"
+            android:label="@string/activity5" />
+        <activity
+            android:name=".hospital2"
+            android:exported="true"
+            android:label="@string/activity5" />
+        <activity
+            android:name=".hospital1"
+            android:exported="true"
+            android:label="@string/activity5" />
+        <activity
+            android:name=".HospitalsActivity"
+            android:exported="true"
+            android:label="@string/activity5" />
+        <activity
+            android:name=".hotel6"
+            android:exported="true"
+            android:label="@string/activity7" />
+        <activity
+            android:name=".hotel5"
+            android:exported="true"
+            android:label="@string/activity7" />
+        <activity
+            android:name=".hotel4"
+            android:exported="true"
+            android:label="@string/activity7" />
+        <activity
+            android:name=".hotel3"
+            android:exported="true"
+            android:label="@string/activity7" />
+        <activity
+            android:name=".hotel2"
+            android:exported="true"
+            android:label="@string/activity7" />
+        <activity
+            android:name=".hotel1"
+            android:exported="true"
+            android:label="@string/activity7" />
+        <activity
+            android:name=".HotelsActivity"
+            android:exported="true"
+            android:label="@string/activity7" />
+        <activity
+            android:name=".intro"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
